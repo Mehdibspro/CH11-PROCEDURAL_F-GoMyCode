@@ -1,0 +1,27 @@
+PROCEDURE dot_product(V1,V2: ARRAY_OF INTEGER)
+   VAR
+    ps: INTEGER;
+BEGIN
+    for (i FROM 0 to 1) DO
+    PS:= V1[i]*v2[i] + ps;
+    IF PS=0 THEN
+    Write ('les deux vecteurs sont orthogonaux')
+    Else 
+    Write ('les deux vecteurs ne sont pas orthogonaux')
+END
+
+
+
+ALGORITHM algorithm_name
+VAR
+    set_declarations
+BEGIN
+  read(V1);
+  read(V2);
+  
+  dot_product(V1,V2);  
+
+END
+
+
+// ps=x1*x2+y1*y2
